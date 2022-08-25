@@ -1,0 +1,13 @@
+http://example.com/gy404.html
+http://example.com/about/index.html
+http://example.com/tags/index.html
+http://example.com/categories/index.html
+http://example.com/2022/08/16/8-16%E6%97%A5%E8%AE%B0/
+http://example.com/404.html
+http://example.com/guestbook/index.html
+http://example.com/2022/08/24/404/
+http://example.com/2022/08/16/8.16%E6%97%A5%E8%AE%B0/
+http://example.com/2022/07/03/%E2%80%9C%E6%9D%9C%E6%B3%BD%E8%BD%A9%E2%80%9D/
+http://example.com/2022/07/01/%E5%A4%A7%E5%AE%B6%E5%A5%BD/
+http://example.com/2022/07/01/hello-world/
+http://example.com/

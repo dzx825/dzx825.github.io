@@ -976,8 +976,7 @@ pre code {
     margin: 0 5px;
   }
 }
-.pagination .page-number.current,
-.algolia-pagination .current .page-number {
+.pagination .page-number.current {
   background: #ccc;
   border-color: #ccc;
   color: var(--content-bg-color);
@@ -1222,6 +1221,76 @@ header.header {
 }
 .use-motion .menu-item {
   visibility: hidden;
+}
+.github-corner :hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+.github-corner svg {
+  color: #fff;
+  fill: var(--theme-color);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+@media (max-width: 991px) {
+  .github-corner {
+    display: none;
+  }
+  .github-corner svg {
+    color: var(--theme-color);
+    fill: #fff;
+  }
+  .github-corner .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+@-moz-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-o-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
 }
 .sidebar-inner {
   color: #999;
@@ -2457,35 +2526,6 @@ ul.breadcrumb li:last-child {
   border-bottom: 1px dashed #ccc;
   padding: 5px 0;
 }
-.search-input-container {
-  flex-grow: 1;
-}
-.search-input-container form {
-  padding: 2px;
-}
-.search-stats {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-.search-stats img {
-  height: 1em;
-  margin: 0;
-}
-.algolia-pagination {
-  margin: 40px 0;
-  opacity: 1;
-  padding: 0;
-}
-.algolia-pagination .pagination-item {
-  display: inline-block;
-}
-.algolia-pagination .current .page-number {
-  cursor: default;
-}
-.algolia-pagination .disabled-item {
-  visibility: hidden;
-}
 .search-popup .search-input-container {
   flex-grow: 1;
   padding: 2px;
@@ -2505,6 +2545,10 @@ mark.search-keyword {
   border-bottom: 1px dashed #ff2a2a;
   color: #ff2a2a;
   font-weight: bold;
+}
+.gitter-open-chat-button {
+  right: auto !important;
+  left: 10px !important;
 }
 .use-motion .animated {
   animation-fill-mode: none;
@@ -2821,4 +2865,23 @@ mark.search-keyword {
   .comments {
     padding: 10px 12px;
   }
+}
+body {
+  background: url("http://1234567890.infinityfreeapp.com/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
 }
