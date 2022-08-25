@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>每日一句</title>
+    <url>//%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html</url>
+    <content><![CDATA[<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<div id="poem_sentence"></div>
+<div id="poem_info"></div>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector("#poem_sentence")
+    var info = document.querySelector("#poem_info")
+    sentence.innerHTML = result.data.content
+    info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+  });
+</script>]]></content>
+  </entry>
+  <entry>
     <title>404</title>
     <url>/2022/08/24/404/</url>
     <content><![CDATA[<p>404<br>404 – Page not found.</p>
