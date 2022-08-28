@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/08/28/b/</loc>
+    
+    <lastmod>2022-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/08/28/draft/</loc>
+    
+    <lastmod>2022-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/08/28/asd/</loc>
+    
+    <lastmod>2022-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5/index.html</loc>
     
     <lastmod>2022-08-25</lastmod>
