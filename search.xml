@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>每日一句</title>
-    <url>//%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html</url>
-    <content><![CDATA[<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<div id="poem_sentence"></div>
-<div id="poem_info"></div>
-<script type="text/javascript">
-  jinrishici.load(function(result) {
-    var sentence = document.querySelector("#poem_sentence")
-    var info = document.querySelector("#poem_info")
-    sentence.innerHTML = result.data.content
-    info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-  });
-</script>]]></content>
-  </entry>
-  <entry>
-    <title>b</title>
-    <url>/2022/08/28/b/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>draft</title>
-    <url>/2022/08/28/draft/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>asd</title>
-    <url>/2022/08/28/asd/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>404</title>
     <url>/2022/08/24/404/</url>
     <content><![CDATA[<p>404<br>404 – Page not found.</p>
@@ -63,22 +33,25 @@
 ]]></content>
   </entry>
   <entry>
+    <title>asd</title>
+    <url>/2022/08/28/asd/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>8.16日记</title>
     <url>/2022/08/16/8.16%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="来到了舅舅家"><a href="#来到了舅舅家" class="headerlink" title="来到了舅舅家"></a>来到了舅舅家</h2><p>完</p>
 ]]></content>
   </entry>
   <entry>
-    <title>“杜泽轩”</title>
-    <url>/2022/07/03/%E2%80%9C%E6%9D%9C%E6%B3%BD%E8%BD%A9%E2%80%9D/</url>
-    <content><![CDATA[<p>刘镇，我做了个博客</p>
-]]></content>
+    <title>b</title>
+    <url>/2022/08/28/b/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>大家好</title>
-    <url>/2022/07/01/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
-    <content><![CDATA[<p>刚建成，没啥可说的，先空着吧。</p>
-]]></content>
+    <title>draft</title>
+    <url>/2022/08/28/draft/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -96,6 +69,33 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“杜泽轩”</title>
+    <url>/2022/07/03/%E2%80%9C%E6%9D%9C%E6%B3%BD%E8%BD%A9%E2%80%9D/</url>
+    <content><![CDATA[<p>刘镇，我做了个博客</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>每日一句</title>
+    <url>//%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html</url>
+    <content><![CDATA[<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<div id="poem_sentence"></div>
+<div id="poem_info"></div>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    var sentence = document.querySelector("#poem_sentence")
+    var info = document.querySelector("#poem_info")
+    sentence.innerHTML = result.data.content
+    info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+  });
+</script>]]></content>
+  </entry>
+  <entry>
+    <title>大家好</title>
+    <url>/2022/07/01/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
+    <content><![CDATA[<p>刚建成，没啥可说的，先空着吧。</p>
 ]]></content>
   </entry>
 </search>
