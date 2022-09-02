@@ -1,3 +1,6 @@
+http://example.com/gogi/index.html
+http://example.com/2022/08/31/%E5%A4%A9%E6%B0%94/
+http://example.com/%E6%91%B8%E9%B1%BC%E4%BA%BA%E6%97%A5%E5%8E%86.html
 http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html
 http://example.com/2022/08/28/b/
 http://example.com/2022/08/28/draft/
