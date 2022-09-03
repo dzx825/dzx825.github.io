@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>&lt;i class=&quot;fa fa-bullhorn&quot;  aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;  公告</title>
+    <url>/2022/09/03/%E5%85%AC%E5%91%8A/</url>
+    <content><![CDATA[<h2 align="center"><i class="fa fa-bullhorn"  aria-hidden="true"></i>  持续更新中。。。</h2>]]></content>
+      <categories>
+        <category>公告</category>
+      </categories>
+      <tags>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>每日一句</title>
     <url>//%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html</url>
     <content><![CDATA[<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
@@ -38,6 +49,17 @@ WIDGET = {
 }
 </script>
 <script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script>]]></content>
+  </entry>
+  <entry>
+    <title>每日背景</title>
+    <url>//%E6%AF%8F%E6%97%A5%E8%83%8C%E6%99%AF.html</url>
+    <content><![CDATA[<video src="https://prod-streaming-video-msn-com.akamaized.net/49a16a97-2dfb-4296-90f4-12459a46d5d5/c5fc2d44-2573-4fff-99d7-c863763063e6.mp4" controls="controls">]]></content>
+      <categories>
+        <category>背景</category>
+      </categories>
+      <tags>
+        <tag>台北彩虹桥</tag>
+      </tags>
   </entry>
   <entry>
     <title>b</title>
