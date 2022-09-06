@@ -1,3 +1,6 @@
+http://dzx825.github.io/2020/12/23/8-16%E6%97%A5%E8%AE%B0/
+http://dzx825.github.io/top/index.html
+http://dzx825.github.io/lib/canvas-nest/README.html
 http://dzx825.github.io/2022/09/05/ts/
 http://dzx825.github.io/404.html
 http://dzx825.github.io/gogi/index.html
@@ -16,7 +19,6 @@ http://dzx825.github.io/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5/index.html
 http://dzx825.github.io/guestbook/index.html
 http://dzx825.github.io/gy404.html
 http://dzx825.github.io/tags/index.html
-http://dzx825.github.io/2022/08/16/8-16%E6%97%A5%E8%AE%B0/
 http://dzx825.github.io/2022/08/24/404/
 http://dzx825.github.io/2022/08/16/8.16%E6%97%A5%E8%AE%B0/
 http://dzx825.github.io/2022/07/03/%E2%80%9C%E6%9D%9C%E6%B3%BD%E8%BD%A9%E2%80%9D/
