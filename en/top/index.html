@@ -159,7 +159,7 @@ p.spoiler {
 <meta property="og:description" content="AV.initialize(&quot;p4vWa8UAzact7h9cjo9slmbd-MdYXbMMI&quot;, &quot;nW1QLhYL7lRKltbyhL4pBS18&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-09-05T08:24:27.000Z">
-<meta property="article:modified_time" content="2022-09-05T08:27:18.339Z">
+<meta property="article:modified_time" content="2022-09-06T10:52:04.194Z">
 <meta property="article:author" content="泽轩 杜">
 <meta property="article:tag" content="请输入密码：">
 <meta name="twitter:card" content="summary">
@@ -206,7 +206,7 @@ p.spoiler {
       <p class="site-title">杜泽轩的博客</p>
       <i class="logo-line"></i>
     </a>
-      <p class="site-subtitle" itemprop="description">君不见黄河之水天上来，奔流到海不复回。 君不见高堂明镜悲白发，朝如青丝暮成雪。 人生得意须尽欢，莫使金樽空对月。 天生我材必有用，千金散尽还复来。 烹羊宰牛且为乐，会须一饮三百杯。 岑夫子，丹丘生，将进酒，杯莫停。 与君歌一曲，请君为我倾耳听。 钟鼓馔玉不足贵，但愿长醉不愿醒。 古来圣贤皆寂寞，惟有饮者留其名。 陈王昔时宴平乐，斗酒十千恣欢谑。 主人何为言少钱，径须沽取对君酌。 五花马、千金裘，呼儿将出换美酒，与尔同销万古愁。</p>
+      <p class="site-subtitle" itemprop="description">我喝过最烈的酒，也放过不该放的手。从前不会回头，往后不会将就。W人生当苦无妨，良人当归即可。W世间文字八万个，唯有情字最杀人。</p>
   </div>
 
   <div class="site-nav-right">
@@ -780,13 +780,12 @@ if(canvas.getContext){
       title=result.title;
       url=result.url;
       // var content="<a href='"+"https://dzx825.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";
-      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"</p>";
+      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://dzx825.github.io"+url+"'>"+title+"</a>"+"</p>";
       document.getElementById("top").innerHTML+=content
     }
   }, function (error) {
     console.log("error");
-  });
-</script
+  });</script>
       </div>
       
       
@@ -805,8 +804,8 @@ if(canvas.getContext){
           <a class="btn comment-button gitalk">gitalk</a>
           <a class="btn comment-button waline">waline</a>
           <a class="btn comment-button twikoo">twikoo</a>
-          <a class="btn comment-button utterances">utterances</a>
           <a class="btn comment-button livere">livere</a>
+          <a class="btn comment-button utterances">utterances</a>
       </div>
         <div class="comment-position gitalk">
           <div class="comments gitalk-container"></div>
@@ -817,11 +816,11 @@ if(canvas.getContext){
         <div class="comment-position twikoo">
           <div class="comments"><div id="twikoo-comments"></div></div>
         </div>
-        <div class="comment-position utterances">
-          <div class="comments utterances-container"></div>
-        </div>
         <div class="comment-position livere">
           <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NzE0My8zMzYwNw"></div>
+        </div>
+        <div class="comment-position utterances">
+          <div class="comments utterances-container"></div>
         </div><script data-pjax src="/js/comments-buttons.js"></script>
 
 <script src="https://giscus.app/client.js"
@@ -1084,9 +1083,9 @@ document.addEventListener('page:loaded', () => {
 
 <script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"owner":"dzx825","id":"location.pathname","repo":"dzx825.github.io","client_id":"fe5f91d7282ade1f1420","client_secret":"def1fdc7dc6cb10f70d7fd922a3c0916ebd94d9c","admin_user":"dzx825","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"f1c1d43fd8c9030dd32b3aa2bf7417c5"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
+<script src="/js/third-party/comments/livere.js"></script>
 <script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"dzx825/fff","issue_term":"pathname","theme":"github-light"}</script>
 <script src="/js/third-party/comments/utterances.js"></script>
-<script src="/js/third-party/comments/livere.js"></script>
 
 
 <div class="moon-menu">
