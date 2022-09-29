@@ -1,3 +1,4 @@
+http://dzx825.github.io/%E6%AF%8F%E6%97%A5%E8%83%8C%E6%99%AF.html
 http://dzx825.github.io/link/index.html
 http://dzx825.github.io/photo/index.html
 http://dzx825.github.io/top/index.html
@@ -10,7 +11,6 @@ http://dzx825.github.io/schedule/index.html
 http://dzx825.github.io/2022/09/03/%E5%85%AC%E5%91%8A/
 http://dzx825.github.io/categories/index.html
 http://dzx825.github.io/about/index.html
-http://dzx825.github.io/%E6%AF%8F%E6%97%A5%E8%83%8C%E6%99%AF.html
 http://dzx825.github.io/2022/08/31/%E5%A4%A9%E6%B0%94/
 http://dzx825.github.io/%E6%91%B8%E9%B1%BC%E4%BA%BA%E6%97%A5%E5%8E%86.html
 http://dzx825.github.io/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.html
@@ -28,6 +28,6 @@ http://dzx825.github.io/2022/07/01/%E5%A4%A7%E5%AE%B6%E5%A5%BD/
 http://dzx825.github.io/2022/07/01/hello-world/
 http://dzx825.github.io/
 http://dzx825.github.io/tags/%E5%85%AC%E5%91%8A/
-http://dzx825.github.io/tags/%E5%8F%B0%E5%8C%97%E5%BD%A9%E8%99%B9%E6%A1%A5/
+http://dzx825.github.io/tags/%E5%BF%85%E5%BA%94%E5%A3%81%E7%BA%B8/
 http://dzx825.github.io/categories/%E5%85%AC%E5%91%8A/
 http://dzx825.github.io/categories/%E8%83%8C%E6%99%AF/

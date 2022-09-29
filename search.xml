@@ -57,14 +57,14 @@ WIDGET = {
 ]]></content>
   </entry>
   <entry>
-    <title>每日背景</title>
+    <title>必应每日背景(自动更新)</title>
     <url>//%E6%AF%8F%E6%97%A5%E8%83%8C%E6%99%AF.html</url>
-    <content><![CDATA[<video src="https://prod-streaming-video-msn-com.akamaized.net/49a16a97-2dfb-4296-90f4-12459a46d5d5/c5fc2d44-2573-4fff-99d7-c863763063e6.mp4" controls="controls">]]></content>
+    <content><![CDATA[<img data-src="https://api.sunweihu.com/api/bing1/api.php"/>]]></content>
       <categories>
         <category>背景</category>
       </categories>
       <tags>
-        <tag>台北彩虹桥</tag>
+        <tag>必应壁纸</tag>
       </tags>
   </entry>
   <entry>
