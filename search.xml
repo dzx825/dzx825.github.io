@@ -53,9 +53,7 @@ WIDGET = {
   <entry>
     <title>一言</title>
     <url>/2022/09/30/%E4%B8%80%E8%A8%80/</url>
-    <content><![CDATA[<p>『</p>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-<p>』</p>
+    <content><![CDATA[<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 ]]></content>
   </entry>
   <entry>
