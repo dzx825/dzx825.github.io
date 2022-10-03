@@ -1258,26 +1258,6 @@ document.addEventListener('page:loaded', () => {
     });
     </script>
 {% endif %}
-<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-<script>
-var options = {
-  bottom: '64px',
-  right: '32px',
-  left: 'unset',
-  time: '0.5s',
-  mixColor: 'transparent',
-  backgroundColor: 'transparent',
-  buttonColorDark: '#100f2c',
-  buttonColorLight: '#fff',
-  saveInCookies: true,
-  label: '🌓',
-  autoMatchOsTheme: true
-}
-const darkmode = new Darkmode(options);
-window.darkmode = darkmode;
-darkmode.showWidget();
-</script>
 <script class="next-config" data-name="twikoo" type="application/json">{"enable":true,"visitor":true,"envId":"https://twikoo-dzx825.vercel.app/","region":null,"el":"#twikoo-comments"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
@@ -1299,18 +1279,38 @@ document.addEventListener('page:loaded', () => {
   display: inline-block;
 }
 </style>
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
 <script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cywiRWhJg","appkey":"prod_c168e1718b335cff3adb3f435bc3cf28"}</script>
 <script src="/js/third-party/comments/changyan.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqusjs.css" integrity="sha256-GxdCIOyfxQ1OBfS99qAIJDoGK1ADuBsxhMTqXG82fAY=" crossorigin="anonymous">
 
 <script class="next-config" data-name="disqusjs" type="application/json">{"enable":true,"api":"https://disqus.skk.moe/disqus/","apikey":"Io91t0yjaV3eNvmxkda6ygNqLyaw3OBHbWQlHsAyq7HnBT0Th8D26DBPi2YjGDoQ","shortname":"reaga","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqus.js","integrity":"sha256-LVaMHPQ2zLqOc5rXSAfr4d1PIkEGNLyyUTDNPZmTtUw="}}</script>
 <script src="/js/third-party/comments/disqusjs.js"></script>
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"reaga","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
 <script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"owner":"dzx825","id":"location.pathname","repo":"dzx825.github.io","client_id":"fe5f91d7282ade1f1420","client_secret":"def1fdc7dc6cb10f70d7fd922a3c0916ebd94d9c","admin_user":"dzx825","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"fd466bcd229f49416c85a3dc387db198"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
-<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"reaga","count":true,"i18n":{"disqus":"disqus"}}</script>
-<script src="/js/third-party/comments/disqus.js"></script>
 <script src="/js/third-party/comments/livere.js"></script>
 <script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"dzx825/fff","issue_term":"pathname","theme":"github-light"}</script>
 <script src="/js/third-party/comments/utterances.js"></script>
