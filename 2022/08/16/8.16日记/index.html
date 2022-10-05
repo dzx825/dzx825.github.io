@@ -797,10 +797,10 @@ if(canvas.getContext){
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Disqus：</span>
+      <span class="post-meta-item-text">Changyan：</span>
     
-    <a title="disqus" href="/2022/08/16/8.16%E6%97%A5%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/08/16/8.16日记/" itemprop="commentCount"></span>
+    <a title="8.16日记" href="/2022/08/16/8.16%E6%97%A5%E8%AE%B0/#SOHUCS" itemprop="discussionUrl">
+      <span id="sourceId::fcf5b70d858887351d5a581980d192c7" class="cy_cmt_count" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -811,10 +811,10 @@ if(canvas.getContext){
       <span class="post-meta-item-icon">
         <i class="far fa-comment"></i>
       </span>
-      <span class="post-meta-item-text">Changyan：</span>
+      <span class="post-meta-item-text">Disqus：</span>
     
-    <a title="8.16日记" href="/2022/08/16/8.16%E6%97%A5%E8%AE%B0/#SOHUCS" itemprop="discussionUrl">
-      <span id="sourceId::fcf5b70d858887351d5a581980d192c7" class="cy_cmt_count" itemprop="commentCount"></span>
+    <a title="disqus" href="/2022/08/16/8.16%E6%97%A5%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/08/16/8.16日记/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -946,11 +946,11 @@ if(canvas.getContext){
             <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
             <li class="tab"><a href="#comment-waline">waline</a></li>
             <li class="tab"><a href="#comment-twikoo">twikoo</a></li>
+            <li class="tab"><a href="#comment-changyan">changyan</a></li>
             <li class="tab"><a href="#comment-disqus">Disqus</a></li>
             <li class="tab"><a href="#comment-disqusjs">disqusjs</a></li>
-            <li class="tab"><a href="#comment-changyan">changyan</a></li>
-            <li class="tab"><a href="#comment-utterances">utterances</a></li>
             <li class="tab"><a href="#comment-livere">livere</a></li>
+            <li class="tab"><a href="#comment-utterances">utterances</a></li>
         </ul>
         <div class="tab-content">
             <div class="tab-pane gitalk" id="comment-gitalk">
@@ -961,6 +961,9 @@ if(canvas.getContext){
             </div>
             <div class="tab-pane twikoo" id="comment-twikoo">
               <div class="comments"><div id="twikoo-comments"></div></div>
+            </div>
+            <div class="tab-pane changyan" id="comment-changyan">
+              <div class="comments" id="SOHUCS" sid="fcf5b70d858887351d5a581980d192c7"></div>
             </div>
             <div class="tab-pane disqus" id="comment-disqus">
               
@@ -976,14 +979,11 @@ if(canvas.getContext){
   </div>
   
             </div>
-            <div class="tab-pane changyan" id="comment-changyan">
-              <div class="comments" id="SOHUCS" sid="fcf5b70d858887351d5a581980d192c7"></div>
+            <div class="tab-pane livere" id="comment-livere">
+              <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NzE0My8zMzYwNw"></div>
             </div>
             <div class="tab-pane utterances" id="comment-utterances">
               <div class="comments utterances-container"></div>
-            </div>
-            <div class="tab-pane livere" id="comment-livere">
-              <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NzE0My8zMzYwNw"></div>
             </div>
         </div>
       </div>
@@ -1260,6 +1260,26 @@ document.addEventListener('page:loaded', () => {
     });
     </script>
 {% endif %}
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
 <script class="next-config" data-name="twikoo" type="application/json">{"enable":true,"visitor":true,"envId":"https://twikoo-dzx825.vercel.app/","region":null,"el":"#twikoo-comments"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
@@ -1281,41 +1301,21 @@ document.addEventListener('page:loaded', () => {
   display: inline-block;
 }
 </style>
-<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-<script>
-var options = {
-  bottom: '64px',
-  right: '32px',
-  left: 'unset',
-  time: '0.5s',
-  mixColor: 'transparent',
-  backgroundColor: 'transparent',
-  buttonColorDark: '#100f2c',
-  buttonColorLight: '#fff',
-  saveInCookies: true,
-  label: '🌓',
-  autoMatchOsTheme: true
-}
-const darkmode = new Darkmode(options);
-window.darkmode = darkmode;
-darkmode.showWidget();
-</script>
+<script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cywiRWhJg","appkey":"prod_c168e1718b335cff3adb3f435bc3cf28"}</script>
+<script src="/js/third-party/comments/changyan.js"></script>
 <script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"reaga","count":true,"i18n":{"disqus":"disqus"}}</script>
 <script src="/js/third-party/comments/disqus.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqusjs.css" integrity="sha256-GxdCIOyfxQ1OBfS99qAIJDoGK1ADuBsxhMTqXG82fAY=" crossorigin="anonymous">
-
-<script class="next-config" data-name="disqusjs" type="application/json">{"enable":true,"api":"https://disqus.renzibei.com/api/","apikey":"vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD","shortname":"reaga","nocomment":"花径不曾缘客扫，蓬门今始为君开","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqus.js","integrity":"sha256-LVaMHPQ2zLqOc5rXSAfr4d1PIkEGNLyyUTDNPZmTtUw="}}</script>
-<script src="/js/third-party/comments/disqusjs.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
 <script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"owner":"dzx825","id":"location.pathname","repo":"dzx825.github.io","client_id":"fe5f91d7282ade1f1420","client_secret":"def1fdc7dc6cb10f70d7fd922a3c0916ebd94d9c","admin_user":"dzx825","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.7.2/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"fcf5b70d858887351d5a581980d192c7"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
-<script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cywiRWhJg","appkey":"prod_c168e1718b335cff3adb3f435bc3cf28"}</script>
-<script src="/js/third-party/comments/changyan.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqusjs.css" integrity="sha256-GxdCIOyfxQ1OBfS99qAIJDoGK1ADuBsxhMTqXG82fAY=" crossorigin="anonymous">
+
+<script class="next-config" data-name="disqusjs" type="application/json">{"enable":true,"api":"https://disqus.renzibei.com/api/","apikey":"vIVSVvMh0L9v1kip6Yft6JinP4EG0COwNyCjaLJ850cadxrdHfJLF9rMzxUk51PD","shortname":"dzx825","nocomment":"花径不曾缘客扫，蓬门今始为君开","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/disqusjs/1.3.0/disqus.js","integrity":"sha256-LVaMHPQ2zLqOc5rXSAfr4d1PIkEGNLyyUTDNPZmTtUw="}}</script>
+<script src="/js/third-party/comments/disqusjs.js"></script>
+<script src="/js/third-party/comments/livere.js"></script>
 <script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"dzx825/fff","issue_term":"pathname","theme":"github-light"}</script>
 <script src="/js/third-party/comments/utterances.js"></script>
-<script src="/js/third-party/comments/livere.js"></script>
 
 
 <div class="moon-menu">
